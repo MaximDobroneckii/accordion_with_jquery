@@ -1,0 +1,83 @@
+body {
+  background-color: #E36414;
+}
+
+.Wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.accordion {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.accordion-item {
+  min-height: 100px;
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.accordion-item__trigger {
+  padding: 20px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.accordion-item__content {
+  padding: 20px;
+  border: 1px solid black;
+  display: none;
+  border-top: none;
+  font-family: "Inconsolata", monospace;
+  font-size: 18px;
+}
+
+.accordion-item__trigger__title {
+  padding-left: 54px;
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.accordion-item__bordo {
+  background-color: #620808;
+  min-height: 100px;
+  max-width: 380px;
+  margin: 0 auto;
+  color: #ffe9c1;
+  font-family: "Inconsolata", monospace;
+}
+
+.accordion-item__wine {
+  min-height: 100px;
+  max-width: 380px;
+  background-color: #a53f3f;
+  color: #f4ce74;
+  font-family: "Inconsolata", monospace;
+}
+
+.accordion-item__yelow {
+  min-height: 100px;
+  max-width: 380px;
+  background-color: #f4ce74;
+  color: #620808;
+  font-family: "Inconsolata", monospace;
+}
+
+.accordion-item__beige {
+  min-height: 100px;
+  max-width: 380px;
+  background-color: #ffe9c1;
+  color: #a53f3f;
+  font-family: "Inconsolata", monospace;
+}
+
+.accordion-item__red {
+  min-height: 100px;
+  max-width: 380px;
+  background-color: #d5441c;
+  color: #ffe9c1;
+  font-family: "Inconsolata", monospace;
+}
